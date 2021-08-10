@@ -19,7 +19,7 @@ Widget::Widget(QWidget *parent)
     QPushButton *btn = new QPushButton(tr("关闭"), this);
     btn->move(width() / 2, height() / 2);
     setFixedSize(800, 600);
-
+//
     // Qt4: 宏
 //    connect(btn, SIGNAL(clicked()), this, SLOT(close()));  // 式 1
 //    connect(btn, SIGNAL(clicked()), SLOT(close()));  // 式 2
